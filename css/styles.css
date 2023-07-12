@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body
+{
+	background-image: url('../img/core_background.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	font-family: 'Montserrat', serif;
+	font-size: 0.75em;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.box-shadow
+{
+    box-shadow: 2px 2px 4px 1px #3F3F3F;
+  	-webkit-box-shadow: 2px 2px 4px 1px #3F3F3F;
+}
+
+.rounded-corners-5
+{
+	border-radius: 5px;
+}
+
+.rounded-corners-25
+{
+	border-radius: 25px;
+}
+
+.grad-background-blue
+{
+	background-image: linear-gradient(135deg, #F2F2F2 10%, #0D6EFD 100%);
+}
+
+.grad-background-yellow
+{
+	background-image: linear-gradient(45deg, #0D6EFD 10%, #6C757D 100%);
+}
+
+.custom_colored_text_primary
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #0D6EFD;
+}
+
+.custom_colored_text_secondary
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #6C757D;
+}
+
+.custom_colored_text_warning
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #FFC107;
+}
+
+.custom_colored_text_danger
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #DC3545;
+}
+
+.custom_colored_text_success
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #198754;
+}
+
+.custom_colored_text_info
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #0DCAF0;
+}
+
+.custom_colored_text_light
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #F8F9FA;
+}
+
+.custom_colored_text_dark
+{
+cursor: default;
+pointer-events: none;
+text-decoration: none;
+color: #212529;
+}
